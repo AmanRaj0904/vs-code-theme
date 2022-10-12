@@ -1,0 +1,32 @@
+{
+  "name": "Dark-Blue-Theme",
+  "displayName": "Dark Blue Theme",
+  "description": "Dark Blue",
+  "version": "0.0.1",
+  "icon":"logo.jpg",
+  "publisher": "sonusinha",
+  "repository":{
+		"type":"git",
+		"url":"https://github.com/AmanRaj0904/vs-code-theme"
+	},
+  "keywords": [
+    "theme",
+    "dark theme",
+    "coder Dark"
+],
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Blue Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Blue Theme-color-theme.json"
+      }
+    ]
+  }
+}
